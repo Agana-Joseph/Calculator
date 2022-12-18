@@ -1,0 +1,166 @@
+.cal-body{
+    width: 270px;
+    height: 70vh;
+    background-color: #e69db5;
+    margin: auto;
+    display: block;
+    align-self: center;
+    margin-top: 100px;
+    position: relative;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 6px 6px 6px  rgb(168, 156, 156);
+    border-radius: 7px;
+}
+.screen{
+    width: 260px;
+    height: 50px;
+    background-color: rgba(68, 146, 199);
+    color: aliceblue;
+    margin: auto;
+    display: block;
+    text-align: center;
+    border: 2px solid rgb(76, 156, 209);
+    box-shadow: 2px 4px 4px rgb(125, 121, 121);
+    border-radius: 7px;
+}
+.one ,.five,.nine,.start{
+    width:51px;
+    height: 41px;
+    background-color:#A8A4CE ;
+    border: 1px solid rgb(86, 105, 122);
+    box-shadow: 2px 4px 4px rgb(125, 121, 121);
+    border-radius: 7px;
+    margin-top: 20px;
+    position: absolute;
+    left: 25px;
+
+}
+.two,.six,.zero,.multiply{
+    width:51px;
+    height: 41px;
+    background-color:#A8A4CE ;
+    border: 1px solid rgb(119, 143, 164) ;
+    box-shadow: 2px 4px 4px rgb(125, 121, 121);
+    border-radius: 7px;
+    margin-top: 20px;
+    position: absolute;
+    left: 94px;
+
+}
+.three,.eight,.plus,.equal{
+    width:51px;
+    height: 41px;
+    background-color:#A8A4CE;
+    border: 1px solid rgb(101, 134, 163) ;
+    box-shadow: 2px 4px 4px rgb(125, 121, 121);
+    border-radius: 7px;
+    margin-top: 20px;
+    position: absolute;
+    right: 25px;
+
+}
+.four,.seven,.minus,.devide{
+    width:51px;
+    height: 41px;
+    background-color:#A8A4CE ;
+    border: 1px solid rgb(98, 137, 171);
+    box-shadow: 2px 4px 4px rgb(125, 121, 121);
+    border-radius: 7px;
+    margin-top: 20px;
+    position: absolute;
+    right: 94px;
+}
+.five{
+    left: 25px;
+    top: 130px;
+}
+.six{
+    left: 94px;
+    top: 130px;
+}
+.seven{
+    right:25px;
+    top: 130px;
+}
+.eight{
+    right: 94px;
+    top: 130px;
+}
+.nine,.zero,.minus,.plus{
+    top: 187px;
+}
+.start,.multiply,.devide,.equal{
+    top: 244px;
+}
+.equal{
+    background-color: #c65809;
+    border-radius: 4px solid rgb(237, 34, 16);
+    border: 1px solid rgb(218, 33, 17);
+    color: aliceblue;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+.line{
+    background-color: rgb(41, 44, 44);
+    width: 140px;
+    height: 5px;
+    position: absolute;
+    top: 330px;
+    left: 30px;
+   
+    border-radius: 7px;
+    box-shadow: 2px 4px 4px rgb(125, 121, 121);
+}
+.powerby{
+    position: absolute;
+    top: 340px;
+    right: 30px;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+.powerby #button{
+    display: block;
+    margin-top: 1px;
+    width: 130px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 0.7rem;
+    border-radius: 60px;
+}
+.output{
+    float: left;
+}
+
+.start{
+    background-color: #f48c8c;
+}
+
+
+
+
+
+
+/* #container {
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+    background-color: blue;
+}
+
+#button {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+} */
